@@ -1,0 +1,22 @@
+function Event() {
+return (
+<div>
+<p> Disparou um evento </p>
+<button onclick=>{meuEvent} > Ativar!</button>
+</div>
+}
+export default Event
+
+function meuevent()  {
+console.log("fui ativado")
+
+//function principal
+
+import Event from "./components/Event"
+function App() {
+return (
+<div>
+<Event>
+</div>
+)
+}
