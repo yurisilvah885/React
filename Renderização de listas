@@ -1,0 +1,21 @@
+function OutraLista (){
+return (
+// framework
+<> 
+<h3> lista de coisas boas</h3>
+{itens.map ((item)=> (
+<p> {item} </p> ) )}
+</>
+)  }
+export default OutraLista 
+
+// na function app
+
+const=["react","Angular", "vue"]
+return(
+<div>
+<h1>Renderização de listas</h1>
+<OutraLista itens={meusItens} />
+</div>
+
+// a classe itens está puxando da function criada para a function principal.
