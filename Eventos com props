@@ -1,0 +1,16 @@
+function Buttom (props) {
+return <button{props.text} </button>
+}
+export default Buttom
+
+//importar na Event
+
+import Buttom from "./event/Buttom"
+<div>
+<Buttom text="Primeiro evento"/>
+</div>
+
+//function para Buttom
+
+<Buttom event={meuEvento()} text="Primeiro evento" >props.text}
+</buttom>
