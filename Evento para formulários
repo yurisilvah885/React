@@ -1,0 +1,25 @@
+function Form () {
+return (
+<div> 
+<form>
+<div>
+<input type="text" placeholder="Digite" /> </div>
+<div> <input type="submit" value="cadastrar" </div>
+</form>
+</div>
+export default Form
+
+//evento dentro do form
+
+<form onsubmit = {cadastrarUsuario} >
+
+//criação da function cadastrar
+
+function cadastrarUsuario() {
+console.log("Cadastrado")
+
+//na function principal (App)
+
+<div> 
+<Form/>
+</div>
